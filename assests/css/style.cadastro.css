@@ -1,0 +1,9 @@
+#button-modalidade{
+    background-color: transparent;
+     border: none;
+     
+}
+
+.pontaCabeça{
+    transform: rotate(180deg);
+}

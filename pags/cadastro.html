@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../assests/css/style.cadastro.css">
+    <script src="../assests/js/puxarCadastro.js"></script>
+    <title>Cadastro de Times</title>
 </head>
 <body>
+    <div id="main1">
+        <div>
+            <label for="Time-input">Nome do Time</label>
+            <input type="text" id="Time-input" name="Time-input">
+        </div>
+        <div>
+            <p>Selecione a modalidade</p>
+            <button id="button-modalidade" onclick="modalidades()"><i class="fa-light fa-v"></i></button>
+            <div class="hidden" id="Modalidades-bnts">
+                <button onclick="queimada()"></button>
+                <button onclick="futebol()"></button>
+                <button onclick="voleibol()"></button>
+                <button onclick="circuito()"></button>
+                <button onclick="tenis()"></button>
+                <button onclick="pebolin()"></button>
+                <button onclick="torre()"></button>
+                <button onclick="damas()"></button>
+                <button onclick="cubo()"></button>
+                <button onclick="redacao()"></button>
+                <button onclick="quiz()"></button>
+                <button onclick="logica()"></button>
+                <button onclick="cadeiras()"></button>
+            </div>
+        </div>
+
+    </div>
     
 </body>
 </html>
